@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Full Topic | AI and Generative Models | Kanika Singh</title>
+  <meta name="description" content="Detailed notes on Artificial Intelligence and Generative Models by Kanika Singh.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="index.html">AI &amp; Generative Models</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="details.html">Full topic</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap">
+
+    <div class="page-head">
+      <a class="back" href="index.html">&larr; Back to home</a>
+      <h1>Artificial Intelligence and Generative Models</h1>
+      <p>Notes by Kanika Singh &middot; Emerging Technology</p>
+    </div>
+
+    <div class="layout">
+
+      <!-- Side menu: jumps to each section -->
+      <aside class="toc">
+        <h3>On this page</h3>
+        <a href="#what-is-ai">What is AI?</a>
+        <a href="#how-it-learns">How machines learn</a>
+        <a href="#generative-models">Generative models</a>
+        <a href="#applications">Where it is used</a>
+        <a href="#ethics">Risks and ethics</a>
+        <a href="#conclusion">Conclusion</a>
+      </aside>
+
+      <article>
+
+        <section id="what-is-ai">
+          <h2>What is Artificial Intelligence?</h2>
+          <p>Artificial Intelligence (AI) is the ability of a computer system to do tasks that normally need human intelligence, such as understanding language, recognising images, making decisions and solving problems.</p>
+          <p>The term was first used in 1956 at the Dartmouth Conference. Since then AI has grown from simple rule-based programs to systems that can hold a conversation.</p>
+          <h3>Types of AI</h3>
+          <ul>
+            <li><strong>Narrow AI:</strong> does one job well, like face unlock or Google Maps. All AI today is narrow.</li>
+            <li><strong>General AI:</strong> a machine that could learn any task like a human. It does not exist yet.</li>
+            <li><strong>Super AI:</strong> AI smarter than humans in every way. It is only a theory.</li>
+          </ul>
+        </section>
+
+        <section id="how-it-learns">
+          <h2>How machines learn</h2>
+          <p><strong>Machine Learning (ML)</strong> lets a computer learn patterns from data instead of being given exact rules. The more good data it sees, the better it gets.</p>
+          <h3>Three ways of learning</h3>
+          <ul>
+            <li><strong>Supervised learning:</strong> learns from labelled examples, like photos marked "cat" or "dog".</li>
+            <li><strong>Unsupervised learning:</strong> finds hidden groups in data with no labels.</li>
+            <li><strong>Reinforcement learning:</strong> learns by trial and error using rewards, like a game-playing AI.</li>
+          </ul>
+          <h3>Neural networks</h3>
+          <p>A neural network is a set of connected layers of small units called neurons, inspired by the human brain. <strong>Deep learning</strong> uses networks with many layers, and it powers most modern AI.</p>
+          <div class="callout">Simple idea: AI &gt; Machine Learning &gt; Deep Learning &gt; Generative AI. Each one sits inside the one before it.</div>
+        </section>
+
+        <section id="generative-models">
+          <h2>Generative models</h2>
+          <p>A generative model is an AI that learns the patterns in its training data and then creates new content that looks similar: text, images, music, video or code. A normal AI model only sorts or predicts. A generative one produces something new.</p>
+
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr><th>Model type</th><th>How it works</th><th>Example</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>GAN (Generative Adversarial Network)</td><td>Two networks compete. One creates fake data, the other tries to spot it. Both improve.</td><td>Realistic fake faces</td></tr>
+                <tr><td>VAE (Variational Autoencoder)</td><td>Compresses data into a small code, then rebuilds new versions from it.</td><td>Image variations</td></tr>
+                <tr><td>Diffusion model</td><td>Starts with random noise and removes it step by step until a picture appears.</td><td>Stable Diffusion, DALL-E</td></tr>
+                <tr><td>Large Language Model (LLM)</td><td>A transformer that predicts the next word again and again to write text.</td><td>ChatGPT, Claude, Gemini</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>What is a transformer?</h3>
+          <p>A transformer is a neural network design from 2017 that uses "attention" to see which words in a sentence matter most to each other. It is the base of almost every modern LLM.</p>
+        </section>
+
+        <section id="applications">
+          <h2>Where it is used</h2>
+          <ul>
+            <li><strong>Education:</strong> AI tutors, quiz makers and instant doubt solving.</li>
+            <li><strong>Healthcare:</strong> reading scans, drug discovery and summarising patient records.</li>
+            <li><strong>Art and design:</strong> generating images, logos, music and video.</li>
+            <li><strong>Software:</strong> code suggestions and bug finding.</li>
+            <li><strong>Business:</strong> customer-support chatbots, translation and report writing.</li>
+          </ul>
+        </section>
+
+        <section id="ethics">
+          <h2>Risks and ethics</h2>
+          <ul>
+            <li><strong>Deepfakes and misinformation:</strong> fake photos, voices and videos that look real.</li>
+            <li><strong>Bias:</strong> AI can copy unfair patterns present in its training data.</li>
+            <li><strong>Hallucinations:</strong> AI can state wrong facts in a confident way, so answers must be checked.</li>
+            <li><strong>Copyright and privacy:</strong> questions about who owns AI-made work and what data was used to train it.</li>
+            <li><strong>Jobs:</strong> some tasks will be automated while new kinds of work appear.</li>
+          </ul>
+          <div class="callout">Responsible use means checking facts, giving credit, protecting personal data and being honest when content is AI-made.</div>
+        </section>
+
+        <section id="conclusion">
+          <h2>Conclusion</h2>
+          <p>Artificial Intelligence has moved from labs into daily life, and generative models have made it creative as well as analytical. Used carefully, they can save time and open new possibilities. Used carelessly, they can spread false information and unfair results. Understanding how they work is the first step to using them well.</p>
+          <p><strong>Prepared by:</strong> Kanika Singh</p>
+          <a class="back" href="index.html">&larr; Back to home</a>
+        </section>
+
+      </article>
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrap">Made by Kanika Singh &middot; Emerging Technology project</div>
+  </footer>
+
+</body>
+</html>
